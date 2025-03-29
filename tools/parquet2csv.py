@@ -8,6 +8,6 @@ filtered_df = df[df['image'] == '']
 
 
 filtered_df = filtered_df.assign(score=1)
-filtered_df[['question', 'answer', 'score']].to_csv('Humanity'sLastExam.csv', index=False)
+filtered_df[['question', 'answer', 'score']].to_csv('out.csv', index=False)
 
 print("CSV文件生成完成，包含 {} 条数据".format(len(filtered_df)))

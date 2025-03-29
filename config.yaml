@@ -1,4 +1,4 @@
 datasets:
-  - path: "datasets/questions.csv"
+  - path: "datasets/Humanity's_Last_Exam.csv"
     weight: 1.2
     name: "test"
